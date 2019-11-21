@@ -57,8 +57,12 @@ a {
   display: inline-block;
 }
 
+.nav-bar-option,
+.nav-bar-menu {
+  padding: 20px 0;
+}
+
 .nav-bar-option {
-  padding: 30px 0;
   border-bottom: 2px solid rgb(50, 72, 89);
   background-color: rgb(244, 249, 253);
 }
@@ -77,6 +81,10 @@ a {
   border-right: 2px solid rgb(50, 72, 89);
 }
 
+.nav-bar-option .col-left .clean-list li:first-child a {
+  padding: 0 15px 0 0;
+}
+
 .nav-bar-option .col-right {
   width: 50%;
   text-align: right;
@@ -86,11 +94,37 @@ a {
   color: rgb(26, 166, 188);
 }
 
+.nav-bar-option .col-right .clean-list li:last-child a {
+  margin: 0 0 0 15px;
+}
+
 .login {
   color: rgb(251, 119, 95);
   background-color: rgb(255, 255, 255);
 }
 
+.logo {
+  height: 45px;
+}
+
+.nav-bar-menu .col-left {
+  width: 30%;
+}
+
+.nav-bar-menu .col-right {
+  width: 60%;
+  height: 47px;
+  text-align: right;
+  line-height: 47px;
+}
+
+.nar-bar-menu .col-right ul {
+  vertical-align: middle;
+}
+
+.nav-bar-menu .col-right .clean-list li:last-child a {
+  padding: 0 0 0 15px;
+}
 
 /* main */
 /* empty */
