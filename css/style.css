@@ -6,9 +6,13 @@
 }
 
 body {
-  font-family: font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: rgb(50, 72, 89);
+}
+
+p {
+  line-height: 30px;
 }
 
 a {
@@ -127,7 +131,44 @@ a {
 }
 
 /* main */
-/* empty */
+.jumbotron {
+  height: 600px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.jumbotron .container {
+  height: 600px;
+}
+
+.jumbotron-text {
+  width: 40%;
+  padding: 40px 0 0 0;
+}
+
+.jumbotron-text > h1 {
+  font-size: 40px;
+}
+
+.jumbotron-text > p {
+  padding: 20px 0 0 0;
+}
+
+.jumbotron-text > div {
+  padding: 20px 0 0 0;
+}
+
+.jumbotron-text > div > .button {
+  margin: 0;
+}
+
+.jumbotron-text > div > span {
+  display: block;
+  padding: 20px 0 0 0;
+  font-size: 12px;
+}
 
 /* footer */
 /* empty */
