@@ -175,7 +175,7 @@ a {
 
 /* powerful */
 .powerful {
-  padding: 40px 0 40px 0;
+  padding: 40px 0 0 0;
   background-color: rgb(244, 249, 253);
   text-align: center;
 }
@@ -203,15 +203,29 @@ a {
   text-align: center;
 }
 
-.features > .container {
+.features > .container:first-child {
   height: 500px;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
 }
 
-.features-fill,
-.features-three {
+.features > .container:first-child {
+  margin: 0 auto 40px auto;
+}
+
+.features-fill {
   width: 60%;
+}
+
+.features-three.col-left {
+  width: 30%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.features-three.middle {
+  margin: 0 5%;
 }
 
 /* footer */
