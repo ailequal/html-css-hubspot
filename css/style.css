@@ -180,8 +180,9 @@ a {
   text-align: center;
 }
 
-.powerful > .container {
+.powerful-fill {
   width: 60%;
+  margin: auto;
 }
 
 .powerful img {
@@ -215,6 +216,9 @@ a {
 
 .features-fill {
   width: 60%;
+  height: 100px;
+  margin: auto;
+  background-color: red;
 }
 
 .features-three.col-left {
