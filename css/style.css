@@ -196,5 +196,23 @@ a {
   padding: 20px 0 0 0;
 }
 
+/* features */
+.features {
+  padding: 40px 0 40px 0;
+  background-color: rgb(244, 249, 253);
+  text-align: center;
+}
+
+.features > .container {
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.features-fill,
+.features-three {
+  width: 60%;
+}
+
 /* footer */
 /* empty */
