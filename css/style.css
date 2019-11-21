@@ -12,6 +12,8 @@ body {
 }
 
 a {
+  display: inline-block;
+  padding: 0 15px;
   color: rgb(50, 72, 89);
   text-decoration: none;
 }
@@ -41,9 +43,18 @@ a {
   font-size: 20px;
 }
 
+.button {
+  background-color: rgb(251, 119, 95);
+  margin: 0 15px;
+  padding: 10px;
+  border: 2px solid rgb(251, 119, 95);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
 /* header */
 .header li {
-  display: inline;
+  display: inline-block;
 }
 
 .nav-bar-option {
@@ -54,12 +65,32 @@ a {
 
 .nav-bar-option .col-left {
   width: 50%;
+  height: 47px;
+  line-height: 47px;
+}
+
+.nar-bar-option .col-left ul {
+  vertical-align: middle;
+}
+
+.nav-bar-option .col-left li:first-child {
+  border-right: 2px solid rgb(50, 72, 89);
 }
 
 .nav-bar-option .col-right {
   width: 50%;
   text-align: right;
 }
+
+.nav-bar-option .col-right i:first-child {
+  color: rgb(26, 166, 188);
+}
+
+.login {
+  color: rgb(251, 119, 95);
+  background-color: rgb(255, 255, 255);
+}
+
 
 /* main */
 /* empty */
