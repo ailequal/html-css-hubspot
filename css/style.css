@@ -5,8 +5,30 @@
   border: 0px;
 }
 
+body {
+  font-family: font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.col-left {
+  float: left;
+}
+
+.col-right {
+  float: right;
+}
+
 /* header */
-/* empty */
+.nav-bar-option {
+  height: 300px;
+  border-bottom: 2px solid rgb(50, 72, 89);
+  background-color: rgb(244, 249, 253);
+}
 
 /* main */
 /* empty */
