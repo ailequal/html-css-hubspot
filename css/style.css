@@ -322,5 +322,21 @@ a {
   margin: 20px 0 0 0;
 }
 
+/* comminity */
+.community {
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  padding: 40px 0 40px 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.community p {
+  margin: 20px 0 0 0;
+}
+
+.community .grid {
+  margin: 20px 0 0 0;
+}
+
 /* footer */
 /* empty */
