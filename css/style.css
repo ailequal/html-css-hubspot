@@ -247,25 +247,39 @@ a {
   display: inline-block;
   width: 30%;
   padding: 20px 0 0 0;
-  font-size: 17px;
   text-transform: uppercase;
 }
 
 .features .fill hr {
   display: inline-block;
   width: 70%;
-  margin: 3.5px 0;
+  margin: 7px 0;
   border: 1px solid rgb(137, 147, 151);
 }
 
-.features-three.col-left {
+.features .fill ul {
+  margin: 20px 0 0 0;
+  font-size: 14px;
+}
+
+.features .fill li {
+  display: inline;
+  padding: 0 20px 0 0;
+}
+
+.features .fill i {
+  padding: 0 10px 0 0;
+  color: rgb(251, 119, 95);
+}
+
+.features .three.col-left {
   width: 30%;
   height: 400px;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
 }
 
-.features-three.middle {
+.features .three.col-left.middle {
   margin: 0 5%;
 }
 
