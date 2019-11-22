@@ -209,12 +209,8 @@ a {
   border-radius: 5px;
 }
 
-.features > .container:first-child {
-  margin: 0 auto 40px auto;
-}
-
 .features .fill {
-  padding: 40px 0;
+  padding: 40px 0 0 0;
 }
 
 .features .fill > .col-left {
@@ -225,7 +221,8 @@ a {
   width: 60%;
 }
 
-.features .fill img {
+.features .fill img,
+.features .three img {
   height: 100px;
   margin: auto;
   display: block;
