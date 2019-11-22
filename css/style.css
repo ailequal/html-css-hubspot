@@ -50,7 +50,7 @@ a {
 .button {
   background-color: rgb(251, 119, 95);
   margin: 0 15px;
-  padding: 10px;
+  padding: 10px 30px;
   border: 2px solid rgb(251, 119, 95);
   border-radius: 5px;
   color: rgb(255, 255, 255);
@@ -113,11 +113,15 @@ a {
   background-color: rgb(255, 255, 255);
 }
 
+.gethub {
+  padding: 10px;
+}
+
+/* nav-bar-menu */
 .logo {
   height: 45px;
 }
 
-/* nav-bar-menu */
 .nav-bar-menu .col-left {
   width: 30%;
 }
@@ -273,6 +277,10 @@ a {
   margin: 40px 0 0 0;
 }
 
+.features .three .fill {
+  margin: 20px auto;
+}
+
 .features .three .col-left {
   width: 30%;
   background-color: rgb(255, 255, 255);
@@ -281,6 +289,37 @@ a {
 
 .features .three .col-left.middle {
   margin: 0 5%;
+}
+
+.features .three h3,
+.features .three p {
+  padding: 20px 0 0 0;
+}
+
+.features .three hr {
+  display: inline-block;
+  width: 100%;
+  margin: 40px 0 20px 0;
+  border: 1px solid rgb(137, 147, 151);
+}
+
+.features .three h4 {
+  text-transform: uppercase;
+}
+
+.features .three ul {
+  margin: 20px 0 0 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+.features .three i {
+  padding: 0 10px 0 0;
+  color: rgb(251, 119, 95);
+}
+
+.features .three .button {
+  margin: 20px 0 0 0;
 }
 
 /* footer */
