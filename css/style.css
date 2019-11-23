@@ -428,7 +428,39 @@ a {
 
 /* grow */
 .grow {
-  padding: 40px 0 0 0;
+  padding: 40px 0 40px 0;
+}
+
+.grow .col-left {
+  width: 50%;
+  padding: 0 80px;
+}
+
+.grow .col-left h2 {
+  font-size: 32px;
+}
+
+.grow .col-left p {
+  padding: 20px 0 0 0;
+}
+
+.grow .col-left a {
+  margin: 20px 0 0 0;
+}
+
+.grow .col-left span {
+  display: block;
+  margin: 20px 0 0 0;
+  font-size: 12px;
+}
+
+.grow .col-right {
+  width: 50%;
+  text-align: center;
+}
+
+.grow .col-right img {
+  height: 300px;
 }
 
 /* footer */
