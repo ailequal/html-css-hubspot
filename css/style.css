@@ -523,7 +523,7 @@ a {
 
 /* copyright */
 .copyright {
-  margin: 40px 0 0 0;
+  padding: 30px 0 30px 0;
 }
 
 .copyright .container {
@@ -547,4 +547,10 @@ a {
 
 .copyright .col-right span {
   margin: 0 0 0 20px;
+}
+
+.copyright .col-right span > a {
+  padding: 0;
+  font-size: 12px;
+  color: rgb(203, 215, 226);
 }
