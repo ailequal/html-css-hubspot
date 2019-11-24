@@ -469,6 +469,10 @@ a {
   color: rgb(255, 255, 255);
 }
 
+.footer .sitemap {
+  padding: 40px 0 0 0;
+}
+
 .footer .container {
   /* margin: 20px auto 0 auto; */
 }
@@ -481,8 +485,26 @@ a {
   font-size: 14px;
 }
 
+.footer .col-left ul {
+  margin: 20px 0 0 0;
+}
+
 .footer .col-left a {
   padding: 0;
   color: rgb(203, 215, 226);
   font-size: 12px;
+}
+
+.footer .col-left .button {
+  margin: 14px 0 0 0;
+  padding: 10px;
+  border: 0;
+  background-color: rgb(203, 215, 226);
+  color: rgb(51, 73, 90);
+}
+
+.footer .col-left i {
+  margin: 14px 20px 0 0;
+  font-size: 16px;
+  color: rgb(203, 215, 226);
 }
