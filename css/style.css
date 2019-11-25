@@ -456,7 +456,7 @@ a {
 
 .grow .col-right {
   width: 50%;
-  text-align: center;
+  text-align: right;
 }
 
 .grow .col-right img {
@@ -504,6 +504,12 @@ a {
   font-size: 16px;
   color: rgb(203, 215, 226);
 }
+
+/* .footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: rgb(41, 213, 211);
+} */
 
 /* languages */
 .languages {
