@@ -64,11 +64,12 @@ a {
 /* header */
 .header li {
   display: inline-block;
+  font-size: 14px;
 }
 
 .nav-bar-option,
 .nav-bar-menu {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 /* nav-bar-option */
@@ -79,8 +80,8 @@ a {
 
 .nav-bar-option .col-left {
   width: 50%;
-  height: 47px;
-  line-height: 47px;
+  height: 40px;
+  line-height: 40px;
 }
 
 .nar-bar-option .col-left ul {
@@ -119,18 +120,20 @@ a {
 
 /* nav-bar-menu */
 .logo {
-  height: 45px;
+  height: 30px;
+  vertical-align: middle;
 }
 
 .nav-bar-menu .col-left {
   width: 30%;
+  line-height: 30px;
 }
 
 .nav-bar-menu .col-right {
   width: 60%;
-  height: 47px;
+  height: 40px;
   text-align: right;
-  line-height: 47px;
+  line-height: 40px;
 }
 
 .nar-bar-menu .col-right ul {
